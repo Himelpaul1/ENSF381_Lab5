@@ -24,7 +24,7 @@ const createMatrix = (title, containerId, rows, cols) => {
             let td = document.createElement('td');
             let input = document.createElement('input');
             input.type = 'number';
-            input.value = Math.floor(Math.random() * 100); // Random value between 0 and 99
+            input.value = Math.floor(Math.random()*100); // Random value between 0 and 99
             td.appendChild(input);
             tr.appendChild(td);
         }
